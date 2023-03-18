@@ -250,10 +250,10 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
 text: tek,
-footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
+footer: '📮 *Note:* Kasi jeda Buat Bot Nya biar Ga ngeleg',
 mentions: await conn.parseMention(tek),
 title: `${htki} *LIST MENU* ${htka}`,
-buttonText: `CLICK HERE ⎙`, 
+buttonText: `Pilih Disini👑`, 
 sections
 }
 if (teks == '404') {
@@ -447,8 +447,8 @@ let imgrr = `https://telegra.ph/file/774110df5cd7c2c75c37c.jpg`
 //------------------ DOCUMENT
 await conn.send2ButtonLoc(m.chat, imgrr, `
 ⃟☰⃟⃟ᭁ═━┈༓ ❲ *Iɴғᴏ Bᴏᴛ* ❳
-┃╔━─⟢⟨ ​AMELIA-MD ⟩⟣
-┇┃ ➯ *Oᴡɴᴇʀ:* PutraModz 
+┃╔━─⟢⟨ ​YaeMikoBotz ⟩⟣
+┇┃ ➯ *Oᴡɴᴇʀ:* King lans👑 
 ┃║ ➯ *Pʀᴏᴊᴇᴄᴛ:* 
 ┇┃ ➯ *Mᴏᴅᴇ:* ${mode}
 ┃║ ➯ *Pʟᴀᴛғᴏʀᴍ:* ${platform}
@@ -460,7 +460,7 @@ await conn.send2ButtonLoc(m.chat, imgrr, `
 ┃❏
 ┗┳━━◩
 ┍┛
-┆➯ My Owner : Wa.me//6282214729677
+┆➯ My Owner : Wa.me//6283132749084
 └─┈⟅
 ┍━─┈❏➢ 
 ┆𝙽𝚊𝚖𝚎 : ${name}
@@ -474,7 +474,7 @@ await conn.send2ButtonLoc(m.chat, imgrr, `
 └──┈┈⟢
 `, `${readMore}\n ${text.trim()}`, 'Sewabot', '.sewa', 'Creator', '.owner', m)
 //------------------- BUTTON VID
-/*conn.sendButton(m.chat, text, wm, 'https://youtu.be/3ONnszQtwz0', [['Ping', '.speed'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})*/
+/*conn.sendButton(m.chat, text, wm, 'https://lynk.id/na_offical', [['Ping', '.speed'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})*/
 
 } catch (e) {
 conn.reply(m.chat, 'Maaf, menu sedang error', m)
