@@ -9,7 +9,7 @@ function pickRandom(list) {
 let namae = conn.getName(m.sender)
 const sections = [
 {
-title: "Select Your Age Here !",
+title: "Pilih Umur Anda !",
 rows: [
 {title: "Random Years", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 ]
@@ -52,7 +52,7 @@ const listMessage = {
   text: `│›Please select your age at the bottom button...`,
   footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔> Want a costume name? type *${usedPrefix + command} yourname.age*`,
   title: "▢- - - - - ʀᴇɢɪsᴛᴇʀ - - - - -",
-  buttonText: "Click Here !",
+  buttonText: "Pilih Disini ☕",
   sections
 }
 
@@ -96,7 +96,7 @@ const listMessage = {
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/4a7e5f18efaadec18a7a0.jpg')).buffer(),
+'thumbnail':await(await fetch('https://telegra.ph/file/326c34a2324c28c7bebdc.jpg')).buffer(),
 'sourceUrl':sgc}},
 'caption':cap,
 'footer':botdate,
