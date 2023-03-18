@@ -211,12 +211,12 @@ await conn.send3ButtonImg(m.chat, await (await fetch(pepe)).buffer(), dashmenu, 
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
-              title: 'Bot Wahatsapp AmeliaMd',
-              body: '© PutraModz', 
-              description: 'Made With ❤️ Putra', 
+              title: 'Yae Bot WhatsApp ',
+              body: '© ʟᴀɴꜱᴍᴏᴅᴢ', 
+              description: 'Made With ❤️ Ahmad Maulana', 
               mediaType: 2,  
             thumbnail: await (await fetch(pepe)).buffer(), 
-           mediaUrl: `https://youtu.be/dTNrtQagzmc` 
+           mediaUrl: `lynk.id/na_offical` 
           }  
        }  
       })
