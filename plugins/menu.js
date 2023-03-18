@@ -40,7 +40,7 @@ let tags = {
   '': 'No Category',
 }
 const defaultMenu = {
-'document':{'url':'https://instagram.com/l4c1f2r'},
+'document':{'url':'https://instagram.com/lans.xys'},
   before: `
  
 ╭─────═[ INFO USER ]═─────⋆
@@ -74,7 +74,7 @@ const defaultMenu = {
   header: '❏┄┅━┅┄〈 *〘 %category 〙*\n│',
     body: '┊ᯬ %cmd %islimit %isPremium',
   footer: '│\n┗━═┅═━━┅┄๑\n',
-  after: `  ${'✧\n┬ 📮 *Note* :\n│ 𝙹𝙸𝙺𝙰 𝙼𝙴𝙻𝙰𝙽𝙶𝙶𝙰𝚁 𝚃𝙾𝚂 𝙰𝙺𝙰𝙽 𝙳𝙸 𝙱𝙰𝙽 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽! ^_^\n╰━━━━━━━━━━━━━━━━┈─◂'}`,
+  after: `  ${'✧\n┬ _*Dibuat oleh : LansOfc👑*_\n╰━━━━━━━━━━━━━━━━┈─◂'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -175,12 +175,12 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
     const menu = './media/menu.jpg'
     const valor = './thumbnail.jpg'
-    let url = 'https://telegra.ph/file/5350eda8fb7d13a11882a.jpg'
+    let url = 'https://telegra.ph/file/565b2fb7eb0e9083f4e4e.jpg'
     conn.sendButton(m.chat,
-`Rpg Bot WhatsApp  | By PutraModz
+`Rpg Bot WhatsApp  | By lansOfc
 
 ${wish()} ${name}
-`, text.trim(), `https://telegra.ph/file/5350eda8fb7d13a11882a.jpg`, [
+`, text.trim(), `https://telegra.ph/file/565b2fb7eb0e9083f4e4e.jpg`, [
       [`ꜱᴇᴡᴀʙᴏᴛ`, `${usedPrefix}sewa`],
       [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`]
     ], m, {asLocation: false})
