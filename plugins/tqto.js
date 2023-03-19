@@ -63,27 +63,27 @@ Terimakasih Juga Untuk Kang Banned:
   let buttonMessage= {
 'document':{'url':'https://youtu.be/dTNrtQagzmc'},
 'mimetype':global.ddocx,
-'fileName':'AmeliaBotz',
+'fileName':'ʏᴀᴇᴍɪᴋᴏ-ʙᴏᴛᴢ',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/dTNrtQagzmc',
+'mediaUrl':'https://lynk.id/na_offical',
 'mediaType':2,
 'previewType':'pdf',
-'title':`PutraModz 🎧: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`By Ameliaputri`,
+'title':`LansOfc 🎧: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+'body':`By ʏᴀᴇᴍɪᴋᴏ-ʙᴏᴛᴢ`,
 'thumbnail':await(await fetch('https://telegra.ph/file/fb6ed7b403be07c191060.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/dTNrtQagzmc'}},
+'sourceUrl':'https://lynk.id/na_offical'}},
 'caption':cap,
 'footer':`Ini Ucapan Terima Kasih Untuk Orang Yang Telah Berpatisipasi
 
 ${botdate}`,
 'buttons':[
-{'buttonId':'.menu','buttonText':{'displayText':'▣ Mҽɳυ ▣'},'type':1},
-{'buttonId':'.salken','buttonText':{'displayText':'🎈Hαʅʅσ'},'type':1}
+{'buttonId':'.menu','buttonText':{'displayText':'MenuBot'},'type':1},
+{'buttonId':'.donasi','buttonText':{'displayText':'Donasi'},'type':1}
 ],
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
