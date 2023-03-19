@@ -111,10 +111,6 @@ let but3 = ('Sewabot')
 let id3 = '.sewa'
 
 let knnt = `
-*『 ɪɴᴛʀᴏᴅᴜᴄᴛɪᴏɴ 』* 
-
-⁛ BOT(BUILD-OPERATE-TRANSFER) adalah program komputer yang dijalankan di Whatsapp yang khusus dibuat untuk melakukan pekerjaan-pekerjaan otomatis, BOT Whatsapp dirancang sedemikian rupa sehingga dapat digunakan dengan nyaman, dan kemungkinan memiliki sedikit bug, Adanya fitur dari bot WhatsApp ini tentu akan membantu anda untuk bersenang senang, dll`
-
 let konten = `*${ucapan()}, ${tag} 👋*, ${kata}\n${knnt}`
 
 let ᴛᴇs = `Pᴏᴡᴇʀ Bʏ ⬝ @${nomorwa.split`@`[0]}\nCʀᴇᴀᴛᴏʀ Bᴏᴛ ⬝ @${nomorown1.split`@`[0]}\n⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
@@ -122,7 +118,7 @@ await conn.send2ButtonImg(m.chat, await genProfile(conn, m), konten, ᴛᴇs, bu
     mediaUrl: 'https://facebook.com/sadtime098',
     mediaType: 2, 
     description: sgc,
-    title: "A M E L I A B O T Z M U L T I D E V I C E",
+    title: " YAEMIKO BOTZ by LansOfc",
     body: kata,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: sgc
