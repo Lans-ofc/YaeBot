@@ -13,7 +13,7 @@ let handler = async (m, { conn, generateWAMessageFromContent, }) => {
            },
            "message": {
                "groupInviteMessage": {
-                   "groupJid": "6282127487538-1625305606@g.us",
+                   "groupJid": "6283132749084-1625305606@g.us",
                    "inviteCode": "null",
                    "groupName": "Halo", 
                    "caption": wm, 
@@ -47,13 +47,13 @@ let handler = async (m, { conn, generateWAMessageFromContent, }) => {
 ╰────────────⬣`
 
 conn.sendButtonDoc(m.chat, '▷ʙᴏᴛ sᴛᴀᴛᴜs◁', sts, 'Owner', '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https//wa.me/6282124690625?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
+    mediaUrl: 'https//wa.me/6283132749084?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
     mediaType: 2, 
-    description: 'wa.me/6282124690625?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
-    title: "Iɴɪ Fᴀᴄᴇʙᴏᴏᴋ Gᴡ!",
+    description: 'wa.me/6283132749084?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
+    title: "Kunjungi Website gw🗿",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
-    sourceUrl: 'https://www.facebook.com/ZykoBotz'
+    sourceUrl: 'https://lynk.id/na_offical'
      }}
   })
 
