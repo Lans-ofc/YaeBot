@@ -9,46 +9,45 @@ const { makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromCon
 let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '🌝', '⚝', '⚚', '♪'])}`
 const defaultMenu = {
   before: `
-╭─────═[ INFO USER ]═─────⋆
-│╭───────────────···
-││☂︎ *Name:* %name
-││☂︎ *Tag:* %tag
-││☂︎ *Premium:* %prems
-││☂︎ *Limit:* %limit
-││☂︎ *Money:* %money
-││☂︎ *Role:* %role
-││☂︎ *Level:* %level [ %xp4levelup Xp For Levelup]
-││☂︎ *Xp:* %exp / %maxexp
-││☂︎ *Total Xp:* %totalexp
-│╰────────────────···
-┠─────═[ TODAY ]═─────⋆
-│╭────────────────···
-││    *${ucapan()} %name!*
-││☂︎ *Tanggal:* %week %weton
-││☂︎ *Date:* %date
-││☂︎ *Tanggal Islam:* %dateIslamic
-││☂︎ *Waktu:* %time
-│╰────────────────···
-┠─────═[ INFO BOT ]═─────⋆
-│╭────────────────···
-││☂︎ *Nama Bot:* %me
-││☂︎ *Mode:* %mode
-││☂︎ *Prefix:* [ *%_p* ]
-││☂︎ *Baileys:* Multi Device
-││☂︎ *Battery:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-││☂︎ *Platform:* %platform
-││☂︎ *Type:* Node.Js
-││☂︎ *Uptime:* %muptime
-││☂︎ *Database:* %rtotalreg dari %totalreg
-│╰────────────────···
-╰──────────═┅═──────────
+%dash
+%m1 *U S E R*
+%m2 *Name:* %name
+%m2 *Tag:* %tag
+%m2 *Status:* %prems
+%m2 *Limit:* %limit
+%m2 *Money:* %money
+%m2 *Role:* %role
+%m2 *Level:* %level [ %xp4levelup Xp For Levelup]
+%m2 *Xp:* %exp / %maxexp
+%m2 *Total Xp:* %totalexp
+%m3
 
-⃝▣──「 *INFO CMD* 」───⬣
-│ *Ⓟ* = Premium
-│ *Ⓛ* = Limit
-▣────────────⬣
+%m1 *T O D A Y*
+%m2 *%ucpn*
+%m2 *Days:* %week %weton
+%m2 *Date:* %date
+%m2 *Islamic Date:* %dateIslamic
+%m2 *Time:* %wib
+%m3
+
+%m1 *I N F O*
+%m2 *Bot Name:* %me
+%m2 *Mode:* %mode
+%m2 *Platform:* %platform
+%m2 *Type:* Node.Js
+%m2 *Baileys:* Multi Device
+%m2 *Prefix:* [ *%_p* ]
+%m2 *Uptime:* %muptime
+%m2 *Database:* %rtotalreg dari %totalreg
+%m3
+
+%m1 *I N F O  C M D* 
+%m4 *Ⓟ* = Premium
+%m4 *Ⓛ* = Limit
+%m3
 %readmore
-`.trimStart(),
+`
+.trimStart(),
   header: '⃝▣──「 %category 」───⬣',
   body: `${emot} %cmd %isPremium %islimit`,
   footer: '▣───────────⬣\n',
@@ -412,10 +411,10 @@ let tek = `✧────···[ Dashboard ]···────✧
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
-  footer: `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`,
+  footer: '👑 *Bot WhatsApp By Lanssmodz*',
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `☂️ LIST MENU ☂️`, 
+  buttonText: `Pilih Menu ☕`, 
   sections
 }
   if (teks == '404') {
