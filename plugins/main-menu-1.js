@@ -99,7 +99,7 @@ let wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 }
 } })*/
 let nowaa = '0'
-let nogww = '6283863727401'
+let nogww = '6283132749084'
 let nogwww = `@${nomorown1.split`@`[0]}`
 let nowa = `${nowaa.split`@`[0]}@s.whatsapp.net`
 let nogw = `${nogww.split`@`[0]}@s.whatsapp.net`
@@ -111,6 +111,9 @@ let but3 = ('Sewabot')
 let id3 = '.sewa'
 
 let knnt = `
+*Welcome To YaeMikoBotz* 
+Di buat Oleh LansOfc`
+
 let konten = `*${ucapan()}, ${tag} 👋*, ${kata}\n${knnt}`
 
 let ᴛᴇs = `Pᴏᴡᴇʀ Bʏ ⬝ @${nomorwa.split`@`[0]}\nCʀᴇᴀᴛᴏʀ Bᴏᴛ ⬝ @${nomorown1.split`@`[0]}\n⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
@@ -118,7 +121,7 @@ await conn.send2ButtonImg(m.chat, await genProfile(conn, m), konten, ᴛᴇs, bu
     mediaUrl: 'https://facebook.com/sadtime098',
     mediaType: 2, 
     description: sgc,
-    title: " YAEMIKO BOTZ by LansOfc",
+    title: "Yae Miko-Botz",
     body: kata,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: sgc
