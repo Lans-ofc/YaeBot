@@ -8,7 +8,7 @@ import { watchFile, unwatchFile } from 'fs'
 import cfonts from 'cfonts';
 import { createInterface } from 'readline'
 import yargs from 'yargs'
-import express from 'express'
+
 // https://stackoverflow.com/a/50052194
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname) // Bring in the ability to create the 'require' method
@@ -16,15 +16,15 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('AMELIABOTZMD', {
+say('NexEp', {
   font: 'chrome',
   align: 'center',
-  colors: ['blue', 'magenta']
+  colors: ['red', 'magenta']
 })
-say(` Amelia MD`, { 
+say(` NexBotz By @NexEp`, { 
   font: 'console',
   align: 'center',
-  colors: ['green', 'magenta']
+  colors: ['red', 'magenta']
 })
 
 var isRunning = false
@@ -40,6 +40,21 @@ function start(file) {
     font: 'console',
     align: 'center',
     colors: ['magenta']
+  })
+  say('⸙ MEMUAT SOURCE...', {
+    font: 'console',
+    align: 'center',
+    colors: ['blue']
+  })
+  say('⸙ MEMUAT PLUGINS...', {
+    font: 'console',
+    align: 'center',
+    colors: ['blue']
+  })
+  say('✅ DONE !', {
+    font: 'console',
+    align: 'center',
+    colors: ['white']
   })
   setupMaster({
     exec: args[0],
@@ -72,8 +87,8 @@ function start(file) {
   if (!opts['test'])
     if (!rl.listenerCount()) rl.on('line', line => {
       p.emit('message', line.trim())
-    })    
-  
+    })
   // console.log(p)
 }
-start('main.js') 
+
+start('main.js')
